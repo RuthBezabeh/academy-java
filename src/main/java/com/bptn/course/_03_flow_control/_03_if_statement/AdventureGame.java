@@ -21,7 +21,14 @@ public class AdventureGame {
         } else {
         	System.out.println("End of adventure!"); 
         }
-        
+        for(int i = 0; i <= 6; i++) {
+            if(i == 4) {
+                continue;
+            }
+            System.out.println(i);
+        }
+        System.out.println("We've finished the loop!");
+    	
         /*
          * 'e': You are now entering the beach shack!
 		   's': You are now at the sea!
