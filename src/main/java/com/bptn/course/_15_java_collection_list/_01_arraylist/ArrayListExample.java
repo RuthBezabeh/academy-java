@@ -1,6 +1,7 @@
 package com.bptn.course._15_java_collection_list._01_arraylist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayListExample {
@@ -58,7 +59,7 @@ public class ArrayListExample {
 		
 		//removeIf(predicate) will remove any values that satisfy the given predicate
 		//removeAll(collection) - will remove any values found in the given collection
-		
+		arrayList.addAll(0, Arrays.asList(1,2,3,4));
 		//Accessing the elements using a traditional for loop
 		for(int i = 0; i<arrayList.size(); i++) {
 			System.out.println(arrayList.get(i));
