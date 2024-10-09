@@ -1,4 +1,4 @@
-package com.bptn.course._codio_exercises._self_led._week_3;
+package com.bptn.course._codio_exercises._self_led._week_3._monday;
 
 //Import the ArrayList class from the java.util package
 import java.util.ArrayList;
