@@ -6,3 +6,4 @@ from "User" u
 join "Profile" p 
 on u."userId"=p."userId"; 
 
+SELECT * FROM "User";
