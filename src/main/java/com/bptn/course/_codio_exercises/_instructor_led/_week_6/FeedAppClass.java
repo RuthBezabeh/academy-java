@@ -5,9 +5,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import com.bptn.course.Credentials;
+
 public class FeedAppClass {
-	private static final String userName = "";
-	private static final String password = "";
+	private static final String userName = Credentials.dbMyUsername;
+	private static final String password = Credentials.dbMyPassword;
 	private static final String dbName = "feedApp";
 	private static final String port = "5433";
 	private static final String dbUrl = "localhost";

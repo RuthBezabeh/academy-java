@@ -4,6 +4,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.bptn.course.Credentials;
 import com.bptn.course._28_jdbc.bean.Student;
 
 import java.sql.Connection;
@@ -17,8 +18,8 @@ public class _01_StmtSelect {
 				
 		//make the database url
 		String dbURL = "jdbc:postgresql://localhost:5433/bptn";
-		String dbUsername = "postgres";
-		String dbPassword = "pg123";
+		String dbUsername = Credentials.dbMyUsername;
+		String dbPassword = Credentials.dbMyPassword;
 		
 		//create sql statement
 		String sql = "SELECT * FROM students ORDER BY \"studentName\"";
